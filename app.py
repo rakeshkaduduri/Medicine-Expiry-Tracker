@@ -49,7 +49,7 @@ st.markdown("""
 
         /* Sidebar */
         [data-testid="stSidebar"] {
-            background-color: rgba(25, 118, 210, 1); 
+            background-color: rgba(25, 118, 210, 0.1); 
             color: white;
             font-family: 'Poppins', sans-serif;
             padding: 15px 10px;
