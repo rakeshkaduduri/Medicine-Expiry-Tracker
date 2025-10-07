@@ -1,3 +1,24 @@
+'''Medicine-Expiry-Tracker/
+│
+├─ src/
+│  ├─ __init__.py
+│  ├─ cli/
+│  │  ├─ __init__.py
+│  │  └─ main.py
+│  ├─ services/
+│  │  ├─ __init__.py
+│  │  ├─ medicine_service.py
+│  │  └─ category_service.py
+│  └─ dao/
+│     ├─ __init__.py
+│     ├─ medicine_dao.py
+│     └─ category_dao.py
+│     └─ alert_dao.py
+│  └─ config.py
+└─ .env
+'''
+
+
 # src/cli/main.py
 import argparse
 import json
